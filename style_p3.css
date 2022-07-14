@@ -168,8 +168,12 @@ main{
 /* HEADER */ 
 
 
-header{
-    text-align: center;
+.logoohmy{
+    display: block;
+    margin: auto;
+    width: 50%;
+    padding-top: 20px;
+    padding-bottom: 15px;
 }
 
 /* MAIN *********************************************/ 
