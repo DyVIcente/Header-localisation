@@ -436,3 +436,20 @@ header{
 .lebtn{
   text-align: center;
 }
+
+
+
+
+.cardresto{
+  position: relative;
+}
+.nouveau{
+  color: black;
+  position: absolute;
+  top: 16px;
+  right: 13px;
+  background-color: #99e2d0;
+  color: #008766;
+  padding: 5px;
+  border-radius: 5px;
+}
