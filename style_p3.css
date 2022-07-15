@@ -152,7 +152,7 @@ html {
     display: list-item;
   }
 
-  /* Début projet OhMyFood******************************************/
+  /* Début projet OhMyFood FIRST PAGE MAIN *****************************************************************/
 
      /* FOOOOOOOOOOOONNNNNNNNNNNNNNNNNT */
 
@@ -305,4 +305,85 @@ footer{
   padding-left: 10px;
   margin-bottom: 0;
   padding-bottom: 30px;
+}
+
+
+
+/* PAGE 2 A LA FRANCAISE DEBUT ******************************************************************/
+
+/* HEADER */
+
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-solid.fa-arrow-left{
+  padding-left: 20px;
+}
+
+/* IMG RESTAURANTS */ 
+
+.imgfranc{
+  width: 100%;
+  object-fit: cover;
+}
+
+/* LE MENUUUUUUUUUUUUUU ****************/
+
+.bigmenu{
+  background-color:rgb(240, 235, 235);
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  margin-top: -35px;
+  position: relative;
+}
+
+.bigtitre{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.littletitre{
+  font-family: 'Shrikhand', cursive;
+}
+
+/* les entrées plats desserts */ 
+
+.entree{
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  width: auto;
+  margin: 20px;
+  border-radius: 20px;
+  box-shadow:2px 2px 10px rgb(175, 170, 170) ;
+}
+
+.titreplat{
+  margin-bottom: 0;
+}
+
+.paraplat{
+  margin-top: 5px;
+}
+
+/* le bouton commander */ 
+
+.btn_resto2{
+  color: white;
+  border-radius: 40px;
+  border-color: transparent;
+  padding: 15px;
+  background:linear-gradient(#FF79DA, #9356DC);
+  margin-bottom: 40px;
+  margin-top: 30px;
+}
+
+.lebtn{
+  text-align: center;
 }
