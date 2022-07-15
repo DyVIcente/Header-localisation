@@ -412,11 +412,13 @@ header{
 /* le bouton commander */ 
 
 .btn_resto2{
+  display: inline-block;
+  text-align: center;
   color: white;
   border-radius: 40px;
-  border-color: transparent;
-  padding: 15px;
+  padding: 15px 30px 15px 30px;
   background:linear-gradient(#FF79DA, #9356DC);
+  box-shadow: 2px 2px 10px rgb(175, 170, 170);
   margin-bottom: 40px;
   margin-top: 30px;
 }
