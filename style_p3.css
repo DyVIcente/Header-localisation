@@ -288,6 +288,10 @@ ul {
 
 /* LE FOOTER *********************/
 
+a{
+  color: white;
+}
+
 footer{ 
   color: white;
   background-color: grey;
