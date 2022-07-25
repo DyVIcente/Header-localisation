@@ -268,11 +268,26 @@ ul {
 
 
 .liresto{
+  display: flex;
   background-color:rgb(240, 235, 235) ;
   box-shadow: 2px 2px 10px rgb(175, 170, 170) ;
   border-radius: 20px;
   padding: 25px ;
   margin: 25px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.numb{
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  text-align: center;
+  padding: 5px;
+  color: white;
+  left: 12px;
+  background-color: #9356DC;
+  border-radius: 40px;
 }
 
 .liresto:hover{
