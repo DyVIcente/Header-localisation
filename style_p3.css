@@ -275,11 +275,17 @@ ul {
   margin: 25px;
 }
 
-.fa-solid.fa-mobile-screen-button,.fa-solid.fa-list-ul,.fa-solid.fa-store{
-  color: grey;
+.liresto:hover{
+  background-color: #d1c7dd;
 }
 
-.fa-solid.fa-mobile-screen-button:hover,.fa-solid.fa-list-ul:hover,.fa-solid.fa-store:hover{
+.liresto:hover .fa-solid.fa-mobile-screen-button{
+  color: #9356DC;
+}
+.liresto:hover .fa-solid.fa-list-ul{
+  color: #9356DC;
+}
+.liresto:hover .fa-solid.fa-store{
   color: #9356DC;
 }
 
