@@ -344,6 +344,15 @@ ul {
   font-size:x-large;
 }
 
+.coeur{
+  font-size: x-large;
+  background: linear-gradient(#fa92dd, #a477db);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+
 
 /* LE FOOTER *********************/
 
