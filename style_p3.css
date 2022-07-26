@@ -449,7 +449,11 @@ header{
   display:block;
   visibility: collapse;
 }
+
+
 /* slide */
+
+
 .entree:hover > .slide-left {
   animation: slide-left 1s ease-in-out 0s 1 normal forwards;
   visibility: visible;
@@ -467,8 +471,9 @@ header{
 } 
  /* spin */
 
-.spinmove{
-  animation: spinmove  1.5s ease-in-out 0.4s infinite normal ;
+.entree:hover > .slide-left > .spinmove {
+  animation: spinmove 0.9s ease-in-out 0.2s 1 normal forwards;
+
 }
 
 @keyframes spinmove{ 
