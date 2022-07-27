@@ -520,19 +520,38 @@ header{
   margin: 20px;
   border-radius: 20px;
   box-shadow:2px 2px 10px rgb(175, 170, 170) ;
-  overflow: hidden;
   cursor: pointer;
+  overflow: hidden;
 }
 
 .slide-left{
+  width: 80px;
+  min-width: 80px;
   transform-origin: right 50%;
   color:white;
   background-color: rgb(156, 226, 208);
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
   text-align:center;
-  display:block;
-  visibility: collapse;
+  display: none;
+  overflow: hidden;
+  
+  
+   
+}
+
+
+.lesplats{
+  margin-left: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+
+.lejusteprix{
+  margin-left: 5px;
+  padding-right: 10px;
+  font-weight: bold;
 }
 
 
@@ -540,6 +559,7 @@ header{
 
 
 .entree:hover > .slide-left {
+  display: block;
   animation: slide-left 1s ease-in-out 0s 1 normal forwards;
   visibility: visible;
 }  
@@ -573,10 +593,16 @@ header{
 
 
 .titreplat{
+  overflow:hidden;
+  white-space: nowrap;
+  text-overflow:ellipsis;
   margin-bottom: 0;
 }
 
 .paraplat{
+  overflow:hidden;
+  white-space: nowrap;
+  text-overflow:ellipsis;
   margin-top: 5px;
 }
 
