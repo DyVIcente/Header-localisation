@@ -349,14 +349,25 @@ ul {
   background-color: white;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px; 
-  justify-content: space-around;
   align-items: center;
+}
+.cardtextok{
+  padding-left: 15px;
 }
 
 .titrecard{
   padding-top: 10px;
   margin-top: 0px;
-  margin-bottom: -5px;
+  margin-bottom: -12px;
+}
+
+.lieutext{
+  margin-bottom: 10px;
+}
+
+.cardcoeur{
+position: absolute;
+right: 30px;
 }
 
 .cardresto{
