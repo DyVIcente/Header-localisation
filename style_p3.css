@@ -492,7 +492,20 @@ header{
     font-weight: lighter;
     font-size: 20px;
     padding-left: 20px;
+    position: relative;
 }
+
+.titremenuu::after{
+  
+    position: absolute;
+    content: '';
+    left: 20px;
+    height: 3px;
+    bottom: -4px; 
+    width: 55px;
+    background: rgb(156, 226, 208);
+}
+
 
 .littletitre{
   font-size: 28px;
