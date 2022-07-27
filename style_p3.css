@@ -477,8 +477,9 @@ header{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-left: 40px;
+  padding-left: 20px;
   padding-right: 40px;
+  padding-top: 20px;
 }
 
 .littletitre{
@@ -486,6 +487,17 @@ header{
 }
 
 /* les entrées plats desserts */ 
+
+.titremenuu{
+    font-weight: lighter;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.littletitre{
+  font-size: 28px;
+
+}
 
 .entree{
   display: flex;
