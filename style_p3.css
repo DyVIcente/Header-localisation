@@ -176,8 +176,49 @@ a:link
   }
 
 /* head spinner beyblade la vitesse */ 
-/*
+
+
+
+.preloader{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(224, 201, 235, 0.6);
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ /* animation pour faire disparaitre le tout en 3s, au placard ! */
+.preloader {
+  -webkit-animation: preloader 0s ease-in 3s forwards;
+  animation: preloader 0s ease-in 3s forwards;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+@keyframes preloader {
+  to {
+      width:0;
+      height:0;
+      overflow:hidden;
+  }
+}
+@-webkit-keyframes preloader {
+  to {
+      width:0;
+      height:0;
+      visibility:hidden;}}
+
+
+
+      /* le spinner tourne tourne */
+
 .loader {
+  
   border: 16px solid #9356DC;
   border-radius: 50%;
   border-top: 16px solid #FF79DA ;
@@ -191,7 +232,8 @@ a:link
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
-*/
+
+
 
 
 /* HEADER */ 
