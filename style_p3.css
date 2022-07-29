@@ -970,17 +970,13 @@ header{
 
 
   /* Page d'accueil */
-.cardsresto{
+.cardrestos{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   padding-top: 50px;
   }
-.tiltleok{
-  position: absolute;
-  left: 0;
-  top: 710px;
-}
+
 .imgresto{
     width: 300px;
   }
@@ -1001,6 +997,7 @@ header{
 
 .menuentrée{
   display: flex;
+  justify-content: space-around;
   align-items: center;
   white-space: nowrap;
   text-overflow: ellipsis;
