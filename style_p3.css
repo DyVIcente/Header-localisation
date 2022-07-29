@@ -968,6 +968,8 @@ header{
 
  @media all and (min-width: 992px) {
 
+
+  /* Page d'accueil */
 .cardsresto{
   display: flex;
   flex-wrap: wrap;
@@ -993,8 +995,34 @@ header{
   padding: 0;
 }
 
+.imgfranc{
+  height: 400px;
+}
 
+.menuentrée{
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
 
+.barbabulle{
+  max-width: 460px;
+  flex-grow: 1;
 
+}
+.barbibulle{
+  max-width: 527px;
+  flex-grow: 1;
+}
+.barbobulle{
+  max-width: 452.9px;
+  flex-grow: 1;
+}
+.fa-solid.fa-arrow-left {
+  padding-left: 40px;
+  font-size: xx-large;
+}
 
  }
