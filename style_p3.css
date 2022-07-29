@@ -719,6 +719,13 @@ header{
   animation-delay: 1.6s;
 }
 
+#bonus{
+  opacity: 0;
+  animation: fadein4 0.5s linear forwards;
+  -webkit-animation: fadein4 0.5s linear forwards; /* Safari et Chrome */ 
+  animation-delay: 0.5s;
+}
+
 
 /* fadein 1 */
 @keyframes fadein1{  
@@ -895,6 +902,24 @@ header{
       to {
           opacity:1;
       }}
+
+      @keyframes bonus{  
+        from {
+            opacity:0;
+        }
+        to {
+            opacity:1;
+        }
+      } 
+       
+      
+      @-webkit-keyframes bonus{ /* sur Safari et Chrome */ 
+        from {
+            opacity:0;
+        }
+        to {
+            opacity:1;
+        }}
 
 
 /* le bouton commander */ 
