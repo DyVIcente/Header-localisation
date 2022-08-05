@@ -970,6 +970,35 @@ header{
 
 
   /* Page d'accueil */
+
+  .listerestoo{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .texteli{
+    padding-left: 20px;
+    padding-right: 40px;
+  }
+  
+  .btnmenu{
+    padding-left: 20px;
+  }
+  
+  .numb1{
+    position: relative;
+    left: -20px;
+  }
+  .numb2{
+    position: relative;
+    left: -20px;
+  }
+  .numb3{
+    position: relative;
+    left: -20px;
+  }
+
+
 .cardrestos{
   display: flex;
   flex-wrap: wrap;
