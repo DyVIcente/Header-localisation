@@ -966,7 +966,7 @@ header{
 
  /* Media Querry *****************************************/
 
- @media all and (min-width: 992px) {
+ @media all and (min-width: 481px) {
 
 
   /* Page d'accueil */
@@ -1050,5 +1050,28 @@ header{
   padding-left: 40px;
   font-size: xx-large;
 }
-
+.menuentrée{
+  flex-wrap: wrap;
+}
  }
+
+
+ @media all and (min-width: 768px) {
+  
+.title{
+ text-align: center;
+}
+
+.listerestoo{ 
+  justify-content:center; 
+}
+.menuentrée{
+  justify-content: center;
+}
+
+.bigtitre{
+  gap: 20px;
+  justify-content: center;
+}
+ }
+
