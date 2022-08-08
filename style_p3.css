@@ -432,7 +432,7 @@ right: 30px;
   background-clip: text;
   -webkit-text-fill-color: transparent;
   cursor: pointer;
-  transition: all 250ms ease-in;
+  transition: all 400ms ease-in;
   }
   
   .coeur2{ 
