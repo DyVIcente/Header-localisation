@@ -966,6 +966,13 @@ header{
 
  /* Media Querry *****************************************/
 
+
+ @media (min-width: 1px) and (max-width: 480px){
+.francimg{
+  height: 250px;
+}
+ }
+
  @media all and (min-width: 481px) {
 
 
