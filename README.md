@@ -19,3 +19,6 @@ les animations ou transitions CSS, pas de JavaScript ni de librairie.</p>
 
 
 
+<p align="center"> <img src="https://user-images.githubusercontent.com/95346160/218684638-ddba6fcb-84a6-4ce0-9f5d-4b5766a2e603.png" alt="image_ohmyfood" /> </p>
+
+
